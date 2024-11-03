@@ -1,7 +1,7 @@
 import React, { useState ,useContext} from 'react'
 import { Link   } from 'react-router-dom'
 import './nav.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function Navbar(){
  

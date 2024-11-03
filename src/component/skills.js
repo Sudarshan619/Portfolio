@@ -1,7 +1,6 @@
 import React from 'react'
 import LineChart from './linechart'
-import BarChart from './chart'
-import PieChart from './pie'
+
 
 export default function skills() {
   return (

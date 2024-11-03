@@ -1,6 +1,5 @@
 import React from 'react'
-import VerticalProgressBar from './vertical-bar'
-import { useState } from 'react';
+
 
 export default function Projects() {
     
