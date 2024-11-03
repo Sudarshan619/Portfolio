@@ -68,7 +68,7 @@ export default function home() {
           </div>
         </div>
       </div>
-      <div class="subscribe">
+      {/* <div class="subscribe">
         <h2 class="subscribe__title">Let's keep in touch</h2>
         <p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates. We promise not to spam you!</p>
         <div class="form">
@@ -79,7 +79,7 @@ export default function home() {
           <input type="checkbox"/>
             <span class="notice__copy">I agree to my email address being stored and uses to recieve monthly newsletter.</span>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
