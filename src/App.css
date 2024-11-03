@@ -12,27 +12,632 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+:root {
+  --blue: #0872dc;
+  --green: #15ad3d;
+  --lb:#1ebbff;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.name {
+  font-size: 2.5rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.intern {
+  height: 60vh;
+}
+
+.internship1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  font-family: "IBM Plex Mono", monospace;
+  color: #9C9C9C;
+  font-weight: 400;
+  font-style: normal;
+  /* background: linear-gradient(to bottom right, #62fcaf, green); */
 }
+
+.achievements {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.company-img {
+  width: 50%;
+  height: 60vh;
+ 
+}
+
+.company {
+  color: rgb(64, 63, 63);
+  font-size: 1.5rem;
+}
+
+.company1 {
+  color: #0E5D95;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.ul-intern {
+  text-align: start;
+  font-family: "IBM Plex Mono", monospace;
+  color: #9C9C9C;
+}
+
+.internship {
+  display: flex;
+  width: 80%;
+  gap: 60px;
+  margin: 60px auto;
+}
+
+.name1 {
+  font-size: 2.5rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #0E5D95;
+}
+
+.desc-1 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #9C9C9C;
+}
+
+/* .project-div{
+  background-color: white;
+} */
 
 .App-link {
   color: #61dafb;
 }
 
+.sub-title {
+  color: #dad9d9;
+}
+
+.hero {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  /* background: linear-gradient(to bottom right, #62fcaf, green); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.achieve-desc {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.achieve-img {
+  width: 50%;
+  height: 40vh;
+}
+
+.achievements1 {
+  display: flex;
+  gap: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.left-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.social-icon{
+  display: flex;
+  gap:12px;
+  list-style-type: none;
+  margin-bottom: 0px;
+  gap:20px
+}
+
+
+.nav-content {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 75%;
+}
+
+img {
+  width: 160px;
+  height: 20px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-bar {
+  background: black;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border-radius {
+  
+  width: 24rem;
+  height: 24rem;
+  float: right;
+}
+
+.name-img {
+ 
+  width: 100%;
+  height: -webkit-fill-available;
+}
+.click-here{
+  height: 4rem;
+  width: 20rem;
+  background: #36969c;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: medium;
+}
+.logo {
+  display: flex;
+  background-color: #1B1B1B;
+  width: 80%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showcase {
+  display: flex;
+  background-color: #ffffff;
+  height: 20vh;
+  align-items: center;
+}
+
+.showcase1 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  font-family: 'Poppins';
+}
+
+.d-block {
+  height: 40vh;
+}
+
+.numbers {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  /* background: #ffffff; */
+  justify-content: space-between;
+  /* overflow-x: hidden; */
+  padding: 20px;
+  /* border: 2px solid rgb(116, 113, 113); */
+  /* box-shadow: 4px 4px 6px 0px; */
+  margin: 12px 60px 32px;
+  border-radius: 8px;
+}
+.project-name{
+  font-family: "IBM Plex Mono", monospace;
+  color: #9C9C9C;
+  font-weight: 400;
+  font-style: normal;
+}
+.project-desc-left{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.project-desc-right{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.view-app{
+  height: 3rem;
+  width: 12rem;
+  background: #FFA217;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 8px;
+  font-size: medium;
+}
+.view-b{
+  background: var(--blue) ;
+}
+.view-g{
+  background: var(--green) ;
+}
+.view-lb{
+  background: var(--lb) ;
+}
+
+.project-image {
+  height: 36vh;
+  border-radius: 8px;
+  /* border: 2px solid rgb(92, 89, 89); */
+}
+.progress-container {
+  width: 30px;
+  height: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #76c7c0;
+  border-radius: 5px 5px 0 0;
+  transition: height 0.3s ease-in-out;
+}
+.certication-content {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.certifaction {
+  box-shadow: 2px 2px 2px 2px;
+  width: 48%;
+  height: 44vh;
+  border-radius: 8px;
+  position: relative;
+}
+
+.certification-img {
+  width: 100%;
+  height: 37vh;
+}
+
+.download {
+  height: 48px;
+  width: 100%;
+  z-index: 1;
+}
+
+.certifaction:hover .download {
+  display: block;
+  /* Show the download button on hover */
+}
+
+
+.download {
+  display: none;
+  /* Initially hide the download button */
+  position: absolute;
+  bottom: 10px;
+  /* Position it 10px from the bottom */
+  left: 50%;
+  top: 40%;
+  width: 25%;
+  background-color: white;
+  font-family: "IBM Plex Mono", monospace;
+  opacity: 0.7;
+  height: 20%;
+  border: none;
+  transform: translateX(-50%);
+  /* Center the button horizontally */
+  /* background-color: transparent;  */
+  color: rgb(95, 94, 94);
+  /* Text color */
+  padding: 10px 20px;
+  /* Padding for the button */
+  text-decoration: none;
+  /* Remove underline */
+  border-radius: 5px;
+  /* Rounded corners */
+  transition: background-color 1s ease;
+  /* Transition for background color */
+}
+
+.download:hover {
+  opacity: 1;
+}
+
+.certifaction::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border-radius: 8px;
+  transform: scaleY(0);
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  /* Change color as needed */
+  opacity: 0.8;
+  transform-origin: bottom center;
+  transition: transform 0.5s ease-out;
+  /* Adjust duration and easing as needed */
+}
+
+.certifaction:hover::after {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+
+.certification-title {
+  background: white;
+  height: 2em;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 8px 8px;
+  font-family: "IBM Plex Mono", monospace;
+  color: #0d0c0c;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tools {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 12px 0px 32px;
+  width: 20%;
+  background: #ffffff;
+}
+
+.project-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.project-image {
+  width: 40%;
+}
+
+.skills {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.highliter {
+  font-weight: bolder;
+
+}
+
+.skills-desc {
+  width: 50%;
+  color: rgb(80, 78, 78);
+  font-size: 1rem;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.ul-skills{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sl-spinner1 {
+  top: 24%;
+  position: absolute;
+  left: 36%;
+}
+
+.section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.icons{
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.desc-left {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(93, 91, 91);
+}
+.grid-skills{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 154px 154px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.skills-img{
+  height: 120px;
+  border-radius: 4px;
+  padding: 20px;
+  mix-blend-mode: darken;
+  border: 4px solid #2b2a2a;
+  background:#1B1B1B ;
+  /* box-shadow: 4px 4px 4px 4px; */
+  
+}
+.skills-img:hover{
+  background-color: white;
+  transition: 0.8s linear;
+}
+.desc-right {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(93, 91, 91);
+}
+
+svg {
+  width: 32px;
+  height: 32px;
+}
+
+.content {
+  
+  width: 100%;
+}
+
+.social-logo {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    align-items:center
+}
+.social-icon{
+  display: none;
+}
+.projects{
+  height: auto;
+  margin: 0px;
+}
+}
+
+@media only screen and (max-width:720px){
+  .project-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-image{
+    display: none;
+  }
+  .project-desc-left,.project-desc-right{
+    width: 100%;
+  }
+  .certication-content{
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+  }
+  .certifaction {
+    width:auto;
+  }
+  .logo{
+    width: 100%;
+  }
+  .hero{
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin: 20px;
+  }
+  .left-div{
+    width: auto;
+  }
+  .showcase {
+    flex-direction: column;
+  }
+  .internship{
+    flex-direction: column;
+    margin: 60px 0px;
+    width: 80%;
+    gap: 0px;
+  }
+  .achieve-desc{
+   width: 100%;
+  }
+  .internship1{
+    width: 100%;
+  }
+  .company-img{
+    width: auto;
+  }
+  .intern{
+    height: auto;
+  }
+  .achievements{
+    height: auto;
+  }
+  .achievements1{
+    flex-direction: column;
+    margin: 0px 0px;
+    gap: 0px;
+  }
+  .achieve-img{
+    width: 100%;
+  }
+  .showcase1{
+    font-size: smaller;
+    align-items: center;
+  }
+  .showcase{
+    flex-direction: row;
+  }
+  .numbers{
+    width: 40px;
   }
 }

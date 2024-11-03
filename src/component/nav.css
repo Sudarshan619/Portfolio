@@ -1,0 +1,50 @@
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    background-color:  transparent !important;
+}
+
+.nav-Link {
+    position: relative;
+    color: #9C9C9C; /* Change color as needed */
+    text-decoration: none; /* Remove default underline */
+    font-weight: 500;
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.nav-Link::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 40px;
+    background-color: #36969c; /* Change color as needed */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out; /* Adjust duration and easing as needed */
+}
+.nav-Link:hover {
+    color: #36969c;
+}
+
+.nav-Link:hover > .navbar-img path{
+    fill: #36969c !important;
+}
+
+.nav-Link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
