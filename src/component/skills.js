@@ -27,10 +27,10 @@ export default function skills() {
       <div className='skills'>
         <div className='skills-desc'>
           <ul className='ul-skills'>
-            <li><span className='highliter'>Programming Languages:</span> Gained proficiency in multiple programming languages, including Python, Java, C++, and JavaScript. This has enabled me to develop a versatile coding skill set applicable to various domains, from web development to software engineering.
+            <li><span className='highliter'>Programming Languages:</span> Gained proficiency in multiple programming languages, including Python, Java, C#, and JavaScript. This has enabled me to develop a versatile coding skill set applicable to various domains, from web development to software engineering.
             </li>
             <li>
-            <span className='highliter'>Data Structures and Algorithms:</span> Built a solid foundation in essential computer science concepts such as data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, dynamic programming). I have applied these concepts to optimize code performance and solve complex problems efficiently.
+            <span className='highliter'>Data Structures and Algorithms:</span> Built a solid foundation in essential computer science concepts such as data structures (arrays, linked lists, trees) and algorithms (sorting, searching). I have applied these concepts to optimize code performance and solve complex problems efficiently.
             </li>
             <li>
             <span className='highliter'>Web Development:</span> Acquired skills in front-end and back-end web development. I have built dynamic and responsive web applications using HTML, CSS, JavaScript, React, Node.js, and Express.js, along with database management using MySQL and MongoDB.

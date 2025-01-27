@@ -57,7 +57,7 @@ export default function home() {
       </div>
       <div className='achievements'>
         <div className='achievements1'>
-          <img src='certification.png' className='achieve-img'></img>
+          <img src='caertificate.png' className='achieve-img'></img>
           <div className='achieve-desc'>
             <span className='company1'>Certification for project in Morse Code-based Authentication for Military Application</span>
             <ul className='ul-intern'>
@@ -66,6 +66,23 @@ export default function home() {
               <li> Developed and presented project exhibition showcasing practical application in military scenarios</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className='intern'>
+        {/* <h4>INTERNSHIP</h4> */}
+        <div className='internship'>
+          <div className='internship1'>
+            <span className='name1'>DotNet Full Stack Developer Trainee <span className='company'>Genspark</span></span>
+            <span>Sep 2023 - Present</span>
+
+            <ul className='ul-intern'>
+              <li>Redesigned the company website using HTML, CSS, and JavaScript.</li>
+              <li>Resolved backend bugs to ensure website functionality.</li>
+              <li>Contributed to the agile development process, including sprint planning and code reviews.</li>
+            </ul>
+            
+          </div>
+          <img src='trainee.webp' className='company-img'></img>
         </div>
       </div>
       {/* <div class="subscribe">

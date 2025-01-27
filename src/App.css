@@ -25,9 +25,6 @@
   color: #ffffff;
 }
 
-.intern {
-  height: 60vh;
-}
 
 .internship1 {
   display: flex;
@@ -42,15 +39,19 @@
 
 .achievements {
   display: flex;
-  height: 60vh;
   width: 100%;
   margin: auto;
   background-color: #ffffff;
 }
 
 .company-img {
-  width: 50%;
+  width: 40%;
   height: 60vh;
+  max-width: 100%; /* Makes the image responsive */
+   /* Maintains the image's aspect ratio */
+  filter: drop-shadow(4px 4px 8px rgba(1, 1, 1, 1.3)); /* Adds a soft shadow */
+  border-radius: 8px; /* Optional rounded corners */
+  margin-bottom: 12px; /* Space below the image */
  
 }
 
@@ -73,10 +74,10 @@
 }
 
 .internship {
-  display: flex;
-  width: 80%;
-  gap: 60px;
-  margin: 60px auto;
+      display: flex;
+      width: 80%;
+      gap: 60px;
+      margin: 60px auto;
 }
 
 .name1 {
@@ -118,13 +119,18 @@
 .achieve-desc {
   width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
 }
 
 .achieve-img {
-  width: 50%;
+  width: 40%;
   height: 40vh;
+  max-width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the image's aspect ratio */
+  filter: drop-shadow(4px 4px 8px rgba(1, 1, 1, 1.3)); /* Adds a soft shadow */
+  border-radius: 8px; /* Optional rounded corners */
+  margin-bottom: 12px; /* Space below the image */
 }
 
 .achievements1 {
@@ -132,6 +138,7 @@
   gap: 60px;
   width: 80%;
   margin: auto;
+  
 }
 
 .left-div {
@@ -432,7 +439,8 @@ img {
 
 .highliter {
   font-weight: bolder;
-
+  color: rgb(188, 161, 250);
+  font-size: 20px;
 }
 
 .skills-desc {
@@ -449,6 +457,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  color: rgb(157, 155, 155);
 }
 
 .sl-spinner1 {
@@ -564,7 +573,7 @@ h3 {
     top: 72px;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: black;
     width: 100%;
     left: 0;
     z-index: 99;
@@ -604,11 +613,12 @@ h3 {
   .hero{
     flex-direction: column;
     height: auto;
-    width: 80%;
+    width: 90%;
     margin: 20px;
   }
   .left-div{
     width: auto;
+    align-items: center;
   }
   .showcase {
     flex-direction: column;
@@ -616,7 +626,7 @@ h3 {
   .internship{
     flex-direction: column;
     margin: 60px 0px;
-    width: 80%;
+    width: 100%;
     gap: 0px;
   }
   .achieve-desc{
@@ -633,6 +643,7 @@ h3 {
   }
   .achievements{
     height: auto;
+    justify-content: center;
   }
   .achievements1{
     flex-direction: column;
